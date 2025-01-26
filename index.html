@@ -2,34 +2,33 @@
 <html lang="en">
 
 <head>
-    
+
 </head>
 
 <body>
 
-    <section id = "movies">
+    <section id="movies">
         <h4 style="text-align: center;">My Favorite Movies</h4>
         <ul style="text-align: center; font-size: 18px; list-style-type: none; padding: 0;">
-            <li><a href="https://dopebox.to/watch-movie/watch-the-maze-runner-online-hd-19748.5297344" target="_blank">The Maze Runner</a></li>
-            <li><a href="https://dopebox.to/watch-movie/watch-maze-runner-the-scorch-trials-online-hd-19389.5297962" target="_blank">Maze Runner: The Scorch Trials</a></li>
-            <li><a href="https://dopebox.to/watch-movie/watch-maze-runner-the-death-cure-online-hd-19590.5297608" target="_blank">Maze Runner: The Death Cure</a></li>
+            <li><a href="https://dopebox.to/watch-movie/watch-the-maze-runner-online-hd-19748.5297344"
+                    target="_blank">The Maze Runner</a></li>
+            <li><a href="https://dopebox.to/watch-movie/watch-maze-runner-the-scorch-trials-online-hd-19389.5297962"
+                    target="_blank">Maze Runner: The Scorch Trials</a></li>
+            <li><a href="https://dopebox.to/watch-movie/watch-maze-runner-the-death-cure-online-hd-19590.5297608"
+                    target="_blank">Maze Runner: The Death Cure</a></li>
         </ul>
     </section>
 
     <header>
-        <h4 style="text-align: center;">Trailer</h4> 
-        <iframe 
-            width="80%" 
-            height="300" 
-            src="https://www.youtube.com/embed/AwwbhhjQ9Xk" 
-            title="Movie Trailer" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        <h4 style="text-align: center;">Trailer</h4>
+        <iframe width="80%" height="300" src="https://www.youtube.com/embed/AwwbhhjQ9Xk" title="Movie Trailer"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
     </header>
 
-    <section id = "skills">
+    <section id="skills">
         <h4 style="text-align: center;">My Skills</h4>
         <ul style="text-align: center; font-size: 18px; list-style-type: none; padding: 0;">
             <li>HTML</li>
@@ -41,22 +40,27 @@
         </ul>
     </section>
 
-    <section id = "libray">
+    <section id="libray">
         <h4 style="text-align: center;">Digital Library</h4>
         <audio id="audioPlayer" controls style="display: block; margin: 0 auto; width: 80%;">
-            <source id="audioSource" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-            <source id="audioSource2" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
-            <source id="audioSource3" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+            <source id="audioSource" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                type="audio/mpeg">
+            <source id="audioSource2" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+                type="audio/mpeg">
+            <source id="audioSource3" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+                type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
         <div style="text-align: center; margin-top: 10px;">
-            <button onclick="document.getElementById('audioSource').src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'; document.getElementById('audioPlayer').load();">Previous</button>
-            <button onclick="document.getElementById('audioSource').src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'; document.getElementById('audioPlayer').load();">Next</button>
+            <button
+                onclick="document.getElementById('audioSource').src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'; document.getElementById('audioPlayer').load();">Previous</button>
+            <button
+                onclick="document.getElementById('audioSource').src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'; document.getElementById('audioPlayer').load();">Next</button>
         </div>
     </section>
 
     <h1 id="header 1"> This is a html5 tag </h1>
-    <nav> 
+    <nav>
         <ul>
             <li> <a href="www.google.com">Home</a></li>
         </ul>
@@ -65,14 +69,14 @@
     <main>
         <section id="contact">
             <h2 id="header2">Say Something About You</h2>
-            
+
             <form action="/submit-form" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
-    
+
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" ><br><br>
-    
+                <input type="email" id="email" name="email"><br><br>
+
                 <label for="username">Choose a Username:</label>
                 <select id="username" name="username">
                     <option value="user1">User1</option>
@@ -80,7 +84,7 @@
                     <option value="user3">User3</option>
                     <option value="user4">User4</option>
                 </select><br><br>
-    
+
                 <button type="submit">Submit</button>
             </form>
         </section>
@@ -90,4 +94,5 @@
         <p>&copy; 2025 My Website. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
